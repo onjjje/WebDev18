@@ -335,6 +335,7 @@ h2.title {
 .footer {
     display: flex;
     align-items: center;
+    min-width: 1140px;
     min-height: 169px;
     background: #141414;
     font-family: Roboto;
@@ -343,12 +344,12 @@ h2.title {
     font-size: 15px;
     line-height: 21px;
     text-align: center;
-    text-decoration-line: underline;
     color: #888888;
 }
 
 .footer .footer_wrapper a {
     color: #888888;
+    text-decoration-line: underline;
 }
 
 .footer .footer_wrapper .footer_spaser {
